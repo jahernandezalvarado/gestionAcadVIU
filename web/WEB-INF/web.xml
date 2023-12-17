@@ -2,11 +2,55 @@
 <web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
     <servlet>
         <servlet-name>ControlAccesoServlet</servlet-name>
-        <servlet-class>es.jahernandez.servlets.ControlAccesoServlet</servlet-class>
+        <servlet-class>es.jahernandez.servlets.usuarios.ControlAccesoServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>AltaUserServlet</servlet-name>
-        <servlet-class>es.jahernandez.servlets.AltaUserServlet</servlet-class>
+        <servlet-class>es.jahernandez.servlets.usuarios.AltaUserServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CargaComboEmpresaServlet</servlet-name>
+        <servlet-class>es.jahernandez.servlets.auxiliares.CargaComboEmpresaServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CargaComboNivelFormativoServlet</servlet-name>
+        <servlet-class>es.jahernandez.servlets.auxiliares.CargaComboNivelFormativoServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>BusquedaInteresadosServlet</servlet-name>
+        <servlet-class>es.jahernandez.servlets.alumnos.BusquedaInteresadosServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CargaComboTipoDocumentoServlet</servlet-name>
+        <servlet-class>es.jahernandez.servlets.auxiliares.CargaComboTipoDocumentoServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CargaComboProvinciasServlet</servlet-name>
+        <servlet-class>es.jahernandez.servlets.auxiliares.CargaComboProvinciasServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AltaNuevoInteresadoServlet</servlet-name>
+        <servlet-class>es.jahernandez.servlets.alumnos.AltaNuevoInteresadoServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>EditarInteresadoServlet</servlet-name>
+        <servlet-class>es.jahernandez.servlets.alumnos.EditarInteresadoServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>BorrarAlumnoServlet</servlet-name>
+        <servlet-class>es.jahernandez.servlets.alumnos.BorrarAlumnoServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>BusProfServlet</servlet-name>
+        <servlet-class>es.jahernandez.servlets.profesores.BusProfServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AltaProfesorServlet</servlet-name>
+        <servlet-class>es.jahernandez.servlets.profesores.AltaProfesorServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>EditarProfesorServlet</servlet-name>
+        <servlet-class>es.jahernandez.servlets.profesores.EditarProfesorServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ControlAccesoServlet</servlet-name>
@@ -15,6 +59,50 @@
     <servlet-mapping>
         <servlet-name>AltaUserServlet</servlet-name>
         <url-pattern>/AltaUserServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CargaComboEmpresaServlet</servlet-name>
+        <url-pattern>/CargaComboEmpresaServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CargaComboNivelFormativoServlet</servlet-name>
+        <url-pattern>/CargaComboNivelFormativoServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>BusquedaInteresadosServlet</servlet-name>
+        <url-pattern>/BusquedaInteresadosServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CargaComboTipoDocumentoServlet</servlet-name>
+        <url-pattern>/CargaComboTipoDocumentoServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CargaComboProvinciasServlet</servlet-name>
+        <url-pattern>/CargaComboProvinciasServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AltaNuevoInteresadoServlet</servlet-name>
+        <url-pattern>/AltaNuevoInteresadoServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>EditarInteresadoServlet</servlet-name>
+        <url-pattern>/EditarInteresadoServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>BorrarAlumnoServlet</servlet-name>
+        <url-pattern>/BorrarAlumnoServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>BusProfServlet</servlet-name>
+        <url-pattern>/BusProfServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AltaProfesorServlet</servlet-name>
+        <url-pattern>/AltaProfesorServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>EditarProfesorServlet</servlet-name>
+        <url-pattern>/EditarProfesorServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

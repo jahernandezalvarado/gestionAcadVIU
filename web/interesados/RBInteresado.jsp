@@ -22,7 +22,7 @@
     int    valAnt       = 0;
 
     AlumnosVO  aluVO    = null;
-    EmpresasVO empVO    = null;
+    //EmpresasVO empVO    = null;
 
     String     cssFI    = "";
     String     listMail = "";
@@ -139,9 +139,9 @@ function cargaMailing()
       <%for (int ind = valInf; ind < valSup; ind++)
               {
                   aluVO = (AlumnosVO) alumnosBusqueda.elementAt(ind);
-                  empVO = EmpresasDAO.devolverDatEmp(aluVO.getEmpAlu());
+                  //empVO = EmpresasDAO.devolverDatEmp(aluVO.getEmpAlu());
 
-                  if (empVO == null) empVO = new EmpresasVO();
+                  //if (empVO == null) empVO = new EmpresasVO();
 
 
                   cssFI = ind%2 == 0 ? "tablaListadoExtensa" : "colorFondoFilaImparListado";
@@ -154,7 +154,7 @@ function cargaMailing()
                 <td><%=aluVO.getFijAlu()%></td>
                 <td><%=aluVO.getEmail()%></td>
                 <td><%=aluVO.getLocalAlu()%></td>
-                <td><%=empVO.getNombreEmpresa()%>
+                <td></td>
                   &nbsp;</td>
                 <td><%if (aluVO.isAlND()){%>
                   <img src="../imagenes/si.png" width="16" height="16" alt="X" />

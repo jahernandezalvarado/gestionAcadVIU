@@ -3,7 +3,7 @@
  * and open the template in the editor.
  */
 
-package es.jahernandez.servlets;
+package es.jahernandez.servlets.usuarios;
 
 import es.jahernandez.accesodatos.ConUsoDAO;
 import es.jahernandez.datos.ConUsuVO;
