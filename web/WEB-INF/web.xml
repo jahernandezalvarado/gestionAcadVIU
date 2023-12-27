@@ -52,6 +52,26 @@
         <servlet-name>EditarProfesorServlet</servlet-name>
         <servlet-class>es.jahernandez.servlets.profesores.EditarProfesorServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>AltaCentroServlet</servlet-name>
+        <servlet-class>es.jahernandez.servlets.centros.AltaCentroServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CargaComboCentrosServlet</servlet-name>
+        <servlet-class>es.jahernandez.servlets.auxiliares.CargaComboCentrosServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>EditaCentroServlet</servlet-name>
+        <servlet-class>es.jahernandez.servlets.centros.EditaCentroServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AltaAulaServlet</servlet-name>
+        <servlet-class>es.jahernandez.servlets.aulas.AltaAulaServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CargarComboAulaServlet</servlet-name>
+        <servlet-class>es.jahernandez.servlets.auxiliares.CargarComboAulaServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>ControlAccesoServlet</servlet-name>
         <url-pattern>/ControlAccesoServlet</url-pattern>
@@ -103,6 +123,26 @@
     <servlet-mapping>
         <servlet-name>EditarProfesorServlet</servlet-name>
         <url-pattern>/EditarProfesorServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AltaCentroServlet</servlet-name>
+        <url-pattern>/AltaCentroServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CargaComboCentrosServlet</servlet-name>
+        <url-pattern>/CargaComboCentrosServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>EditaCentroServlet</servlet-name>
+        <url-pattern>/EditaCentroServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AltaAulaServlet</servlet-name>
+        <url-pattern>/AltaAulaServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CargarComboAulaServlet</servlet-name>
+        <url-pattern>/CargarComboAulaServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
