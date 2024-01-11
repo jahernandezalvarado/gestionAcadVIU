@@ -72,6 +72,30 @@
         <servlet-name>CargarComboAulaServlet</servlet-name>
         <servlet-class>es.jahernandez.servlets.auxiliares.CargarComboAulaServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>CargaComboAreaServlet</servlet-name>
+        <servlet-class>es.jahernandez.servlets.auxiliares.CargaComboAreaServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AltaAreaServlet</servlet-name>
+        <servlet-class>es.jahernandez.servlets.cursos.AltaAreaServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>EditaAreaServlet</servlet-name>
+        <servlet-class>es.jahernandez.servlets.cursos.EditaAreaServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AltaAreaProfServlet</servlet-name>
+        <servlet-class>es.jahernandez.servlets.profesores.AltaAreaProfServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>BajaAreaProfServlet</servlet-name>
+        <servlet-class>es.jahernandez.servlets.profesores.BajaAreaProfServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ResumenEdicionesServlet</servlet-name>
+        <servlet-class>es.jahernandez.servlets.cursos.ResumenEdicionesServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>ControlAccesoServlet</servlet-name>
         <url-pattern>/ControlAccesoServlet</url-pattern>
@@ -143,6 +167,30 @@
     <servlet-mapping>
         <servlet-name>CargarComboAulaServlet</servlet-name>
         <url-pattern>/CargarComboAulaServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CargaComboAreaServlet</servlet-name>
+        <url-pattern>/CargaComboAreaServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AltaAreaServlet</servlet-name>
+        <url-pattern>/AltaAreaServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>EditaAreaServlet</servlet-name>
+        <url-pattern>/EditaAreaServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AltaAreaProfServlet</servlet-name>
+        <url-pattern>/AltaAreaProfServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>BajaAreaProfServlet</servlet-name>
+        <url-pattern>/BajaAreaProfServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ResumenEdicionesServlet</servlet-name>
+        <url-pattern>/ResumenEdicionesServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
