@@ -402,8 +402,8 @@ public class EdiModProfAulaDAO
             ps.setString ( 4, empaVO.getIdAul());
             ps.setDate   ( 5, new Date(empaVO.getFecIni().getTime()));
             ps.setDate   ( 6, new Date(empaVO.getFecFin().getTime()));
-            ps.setString ( 7, empaVO.getHorIni());
-            ps.setString ( 8, empaVO.getHorFin());
+            ps.setInt    ( 7, 0);
+            ps.setInt    ( 8, 0);
             ps.setBoolean( 9, empaVO.isHayLun());
             ps.setBoolean(10, empaVO.isHayMar());
             ps.setBoolean(11, empaVO.isHayMie());

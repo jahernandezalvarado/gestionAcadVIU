@@ -73,10 +73,6 @@
         <servlet-class>es.jahernandez.servlets.auxiliares.CargarComboAulaServlet</servlet-class>
     </servlet>
     <servlet>
-        <servlet-name>CargaComboAreaServlet</servlet-name>
-        <servlet-class>es.jahernandez.servlets.auxiliares.CargaComboAreaServlet</servlet-class>
-    </servlet>
-    <servlet>
         <servlet-name>AltaAreaServlet</servlet-name>
         <servlet-class>es.jahernandez.servlets.cursos.AltaAreaServlet</servlet-class>
     </servlet>
@@ -95,6 +91,122 @@
     <servlet>
         <servlet-name>ResumenEdicionesServlet</servlet-name>
         <servlet-class>es.jahernandez.servlets.cursos.ResumenEdicionesServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CargaTipoCursoServlet</servlet-name>
+        <servlet-class>es.jahernandez.servlets.auxiliares.CargaTipoCursoServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AltaTipoCursoServlet</servlet-name>
+        <servlet-class>es.jahernandez.servlets.cursos.AltaTipoCursoServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CargaComboAreaServlet</servlet-name>
+        <servlet-class>es.jahernandez.servlets.auxiliares.CargaComboAreaServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ImpLisProfServlet</servlet-name>
+        <servlet-class>es.jahernandez.servlets.listados.ImpLisProfServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ImpLisAluServlet</servlet-name>
+        <servlet-class>es.jahernandez.servlets.listados.ImpLisAluServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AltaCursosServlet</servlet-name>
+        <servlet-class>es.jahernandez.servlets.cursos.AltaCursosServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CargaComboCursosServlet</servlet-name>
+        <servlet-class>es.jahernandez.servlets.auxiliares.CargaComboCursosServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AltaNivelServlet</servlet-name>
+        <servlet-class>es.jahernandez.servlets.cursos.AltaNivelServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AltaModuloServlet</servlet-name>
+        <servlet-class>es.jahernandez.servlets.cursos.AltaModuloServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>BajaModuloServlet</servlet-name>
+        <servlet-class>es.jahernandez.servlets.cursos.BajaModuloServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>BajaNivelServlet</servlet-name>
+        <servlet-class>es.jahernandez.servlets.cursos.BajaNivelServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ModNivelServlet</servlet-name>
+        <servlet-class>es.jahernandez.servlets.cursos.ModNivelServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>EditarModuloServlet</servlet-name>
+        <servlet-class>es.jahernandez.servlets.cursos.EditarModuloServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CargaComboNivelesServlet</servlet-name>
+        <servlet-class>es.jahernandez.servlets.auxiliares.CargaComboNivelesServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>BuscaAlumnosTipoCursoServlet</servlet-name>
+        <servlet-class>es.jahernandez.servlets.cursos.BuscaAlumnosTipoCursoServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>BuscaAlumnosCursoServlet</servlet-name>
+        <servlet-class>es.jahernandez.servlets.cursos.BuscaAlumnosCursoServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DarAltaCursoInteresAlumnoServlet</servlet-name>
+        <servlet-class>es.jahernandez.servlets.alumnos.DarAltaCursoInteresAlumnoServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DarBajaCursoInteresAlumnoServlet</servlet-name>
+        <servlet-class>es.jahernandez.servlets.alumnos.DarBajaCursoInteresAlumnoServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AltaEdicionServlet</servlet-name>
+        <servlet-class>es.jahernandez.servlets.cursos.AltaEdicionServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>MuestraDatosCursoServlet</servlet-name>
+        <servlet-class>es.jahernandez.servlets.auxiliares.MuestraDatosCursoServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CargaComboEdicionesDispServlet</servlet-name>
+        <servlet-class>es.jahernandez.servlets.auxiliares.CargaComboEdicionesDispServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>MuestraDatosEdicionServlet</servlet-name>
+        <servlet-class>es.jahernandez.servlets.auxiliares.MuestraDatosEdicionServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>MatricularAlumnoServlet</servlet-name>
+        <servlet-class>es.jahernandez.servlets.cursos.MatricularAlumnoServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ImpImpresoMatServlet</servlet-name>
+        <servlet-class>es.jahernandez.servlets.listados.ImpImpresoMatServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ImpHistMatServlet</servlet-name>
+        <servlet-class>es.jahernandez.servlets.listados.ImpHistMatServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CargaComboProfesoresArea</servlet-name>
+        <servlet-class>es.jahernandez.servlets.auxiliares.CargaComboProfesoresArea</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CargaComboModEdiServlet</servlet-name>
+        <servlet-class>es.jahernandez.servlets.auxiliares.CargaComboModEdiServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AltaModEdiServlet</servlet-name>
+        <servlet-class>es.jahernandez.servlets.cursos.AltaModEdiServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ImpCursosProfServlet</servlet-name>
+        <servlet-class>es.jahernandez.servlets.listados.ImpCursosProfServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ControlAccesoServlet</servlet-name>
@@ -169,10 +281,6 @@
         <url-pattern>/CargarComboAulaServlet</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
-        <servlet-name>CargaComboAreaServlet</servlet-name>
-        <url-pattern>/CargaComboAreaServlet</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
         <servlet-name>AltaAreaServlet</servlet-name>
         <url-pattern>/AltaAreaServlet</url-pattern>
     </servlet-mapping>
@@ -191,6 +299,122 @@
     <servlet-mapping>
         <servlet-name>ResumenEdicionesServlet</servlet-name>
         <url-pattern>/ResumenEdicionesServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CargaTipoCursoServlet</servlet-name>
+        <url-pattern>/CargaTipoCursoServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AltaTipoCursoServlet</servlet-name>
+        <url-pattern>/AltaTipoCursoServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CargaComboAreaServlet</servlet-name>
+        <url-pattern>/CargaComboAreaServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ImpLisProfServlet</servlet-name>
+        <url-pattern>/ImpLisProfServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ImpLisAluServlet</servlet-name>
+        <url-pattern>/ImpLisAluServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AltaCursosServlet</servlet-name>
+        <url-pattern>/AltaCursosServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CargaComboCursosServlet</servlet-name>
+        <url-pattern>/CargaComboCursosServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AltaNivelServlet</servlet-name>
+        <url-pattern>/AltaNivelServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AltaModuloServlet</servlet-name>
+        <url-pattern>/AltaModuloServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>BajaModuloServlet</servlet-name>
+        <url-pattern>/BajaModuloServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>BajaNivelServlet</servlet-name>
+        <url-pattern>/BajaNivelServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ModNivelServlet</servlet-name>
+        <url-pattern>/ModNivelServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>EditarModuloServlet</servlet-name>
+        <url-pattern>/EditarModuloServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CargaComboNivelesServlet</servlet-name>
+        <url-pattern>/CargaComboNivelesServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>BuscaAlumnosTipoCursoServlet</servlet-name>
+        <url-pattern>/BuscaAlumnosTipoCursoServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>BuscaAlumnosCursoServlet</servlet-name>
+        <url-pattern>/BuscaAlumnosCursoServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DarAltaCursoInteresAlumnoServlet</servlet-name>
+        <url-pattern>/DarAltaCursoInteresAlumnoServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DarBajaCursoInteresAlumnoServlet</servlet-name>
+        <url-pattern>/DarBajaCursoInteresAlumnoServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AltaEdicionServlet</servlet-name>
+        <url-pattern>/AltaEdicionServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>MuestraDatosCursoServlet</servlet-name>
+        <url-pattern>/MuestraDatosCursoServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CargaComboEdicionesDispServlet</servlet-name>
+        <url-pattern>/CargaComboEdicionesDispServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>MuestraDatosEdicionServlet</servlet-name>
+        <url-pattern>/MuestraDatosEdicionServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>MatricularAlumnoServlet</servlet-name>
+        <url-pattern>/MatricularAlumnoServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ImpImpresoMatServlet</servlet-name>
+        <url-pattern>/ImpImpresoMatServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ImpHistMatServlet</servlet-name>
+        <url-pattern>/ImpHistMatServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CargaComboProfesoresArea</servlet-name>
+        <url-pattern>/CargaComboProfesoresArea</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CargaComboModEdiServlet</servlet-name>
+        <url-pattern>/CargaComboModEdiServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AltaModEdiServlet</servlet-name>
+        <url-pattern>/AltaModEdiServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ImpCursosProfServlet</servlet-name>
+        <url-pattern>/ImpCursosProfServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
